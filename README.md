@@ -1,4 +1,4 @@
-# NIGHT SOUP
+# [NIGHT SOUP](http://nightsoup.com/)
 
 ##  A website for a record label built using HTML & CSS
 
