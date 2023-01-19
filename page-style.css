@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+html {background-color: #ffffff;
+font-family: 'Lato', sans-serif;}
+h1 {color: rgba(0,0,0,1);
+text-align:center;
+vertical-align: bottom;
+font-size: 36px;
+letter-spacing: 3px;
+text-transform: uppercase;}
+h3 {color: black; font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+h4 {color: black; font-size: 16px;}
+h5 {color: black; font-size: 14px;}
+h6 {color: black; font-size: 14px; 
+    text-align:center;
+line-height: 15%;}
+p {color: gray; text-align: center; text-transform:lowercase;}
+a {text-decoration: none; color:black;}
+a:hover {background-color: yellow;}
+header {align-content: center;}
+body {align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+li {margin-left:0px}
+table { table-layout: fixed;
+    margin: auto;
+}
+th, td {
+    padding-right: 15px; }
+
+th {
+    font-weight: bolder;
+    text-align: left;
+    background-color: gray;
+    color:white;
+    text-transform: uppercase;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+
+/*--Image Tricks--*/
+img.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*--List Tricks--*/
+ul.simple-list {
+    text-transform:lowercase;
+    text-anchor: middle;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+}
+
+.nav-cab-container {
+    align-content: center;
+  }
+  
+.nav-cab {
+    align-content: center;
+  }
+  
+#logo {
+    width: 150px;
+    padding-bottom: 0px;
+}
+#spice-rack {
+    margin-top: -50px;
+    height: 100vh;
+}
+
+.rack-back {
+    display: block;
+    margin:auto;
+    max-width: 100px;
+}
+
+img.title {
+   max-width: 150px;
+   padding-bottom:10px;
+}
+
+.page-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    align-content: center;
+}
+
+div.page-body p {
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    padding-bottom: 15px;
+    text-transform: none;
+}
+
+#circle {
+    background: gray;
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catalog {
+    background-color: white;
+}
+
+#artists p {
+    text-align: left;
+}
+
+#artists img {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-bottom: 15px;
+}
+
+#recordings iframe {
+    max-width: 500px;
+    display:block;
+    margin:auto;
+    filter:grayscale();
+    padding-bottom: 15px;
+}
+
+#projects h2 {
+    text-align: center;
+}
+#projects iframe {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+/* LAPTOP + BIGGER */
+
+@media screen and (min-width: 1281px) {
+    
+    .little-screens {
+        display: none;
+    }
+    .mobile-screens {
+        display: none;
+    }
+    #artists img {
+        display: block;
+        margin: auto;
+        max-width: 500px;
+    }
+  }
+/* LARGE SCREENS */
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    
+    .little-screens {
+        display: none;
+    }
+    .tablet-screens {
+        display: none;
+    }
+
+    #artists img {
+        display: block;
+        margin: auto;
+        max-width: 500px;
+    }
+
+  }
+/* SMALL SCREENS */
+@media screen and (min-width: 321px) and (max-width: 720px) {
+    
+    .mobile-screens {
+        display: none;
+    }
+    .tablet-screens {
+        display: none;
+    }
+    
+    .page-body {
+        width: 100%;
+        margin-left:2px;
+        margin-right: 2px;
+    }
+
+    p {
+        color: black;
+    }
+
+  }
+
+  /* TINY SCREENS */
+@media screen and (min-width: 1px) and (max-width: 320px) {
+    
+    .mobile-screens {
+        display: none;
+    }
+    .tablet-screens {
+        display: none;
+    }
+  }
+
+
+  
